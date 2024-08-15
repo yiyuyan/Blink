@@ -1,0 +1,78 @@
+[158月2024 17:36:08.621] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--nogui, --launchTarget, forgeserveruserdev, --gameDir, ., --fml.neoForgeVersion, 21.0.162, --fml.fmlVersion, 4.0.23, --fml.mcVersion, 1.21, --fml.neoFormVersion, 20240613.152323]
+[158月2024 17:36:08.625] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation OpenJDK 64-Bit Server VM 21.0.2+13-58
+[158月2024 17:36:08.626] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.2 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[158月2024 17:36:08.780] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserveruserdev
+[158月2024 17:36:08.841] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.6 Source=union:/E:/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.14.0+mixin.0.8.6/c265173c84346e9e5d42a2384b2b02bd39a4a899/sponge-mixin-0.14.0+mixin.0.8.6.jar%23136!/ Service=ModLauncher Env=SERVER
+[158月2024 17:36:09.088] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.162.jar" [locator: neoforge devenv provider ([D:\MinecraftNeoForgeMod\Blink\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.162\neoforge-21.0.162.jar])]
+[158月2024 17:36:09.111] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.162.jar" [locator: neoforge devenv provider ([D:\MinecraftNeoForgeMod\Blink\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.162\neoforge-21.0.162.jar])]
+[158月2024 17:36:09.128] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ThirstWasTaken-1.21.0-2.0.1.jar" [locator: {mods folder locator at D:\MinecraftNeoForgeMod\Blink\runs\server\mods}, reader: mod manifest]
+[158月2024 17:36:09.140] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[158月2024 17:36:09.157] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.162.jar" [locator: userdev mods and services, reader: mod manifest]
+[158月2024 17:36:09.206] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.3.5.jar" [locator: userdev mods and services, reader: mod manifest]
+[158月2024 17:36:09.414] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mixinextras-neoforge-0.3.5.jar. Using Mod File: E:\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar
+[158月2024 17:36:09.415] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[158月2024 17:36:09.625] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [neoforge]
+[158月2024 17:36:10.401] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[158月2024 17:36:10.411] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, ., --nogui]
+[158月2024 17:36:10.476] [main/WARN] [mixin/]: Reference map 'thirst.refmap.json' for thirst.mixins.json could not be read. If this is a development environment you can ignore this message
+[158月2024 17:36:10.478] [main/WARN] [mixin/]: Reference map 'blink.refmap.json' for blink.mixins.json could not be read. If this is a development environment you can ignore this message
+[158月2024 17:36:10.617] [main/WARN] [mixin/]: Error loading class: snownee/jade/api/view/FluidView (java.lang.ClassNotFoundException: snownee.jade.api.view.FluidView)
+[158月2024 17:36:10.618] [main/WARN] [mixin/]: @Mixin target snownee.jade.api.view.FluidView was not found thirst.mixins.json:jade.MixinFluidView from mod thirst
+[158月2024 17:36:10.620] [main/WARN] [mixin/]: Error loading class: toughasnails/item/EmptyCanteenItem (java.lang.ClassNotFoundException: toughasnails.item.EmptyCanteenItem)
+[158月2024 17:36:10.620] [main/WARN] [mixin/]: @Mixin target toughasnails.item.EmptyCanteenItem was not found thirst.mixins.json:toughasnails.MixinEmptyCanteenItem from mod thirst
+[158月2024 17:36:10.622] [main/WARN] [mixin/]: Error loading class: toughasnails/config/ThirstConfig (java.lang.ClassNotFoundException: toughasnails.config.ThirstConfig)
+[158月2024 17:36:10.623] [main/WARN] [mixin/]: @Mixin target toughasnails.config.ThirstConfig was not found thirst.mixins.json:toughasnails.MixinServerConfig from mod thirst
+[158月2024 17:36:10.625] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHandler (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHandler)
+[158月2024 17:36:10.626] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHandler was not found thirst.mixins.json:toughasnails.MixinThirstHandler from mod thirst
+[158月2024 17:36:10.628] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHelperImpl (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHelperImpl)
+[158月2024 17:36:10.628] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHelperImpl was not found thirst.mixins.json:toughasnails.MixinThirstHelperImpl from mod thirst
+[158月2024 17:36:10.629] [main/WARN] [mixin/]: Error loading class: toughasnails/client/handler/TooltipHandler (java.lang.ClassNotFoundException: toughasnails.client.handler.TooltipHandler)
+[158月2024 17:36:10.630] [main/WARN] [mixin/]: @Mixin target toughasnails.client.handler.TooltipHandler was not found thirst.mixins.json:toughasnails.MixinTooltipHandler from mod thirst
+[158月2024 17:36:11.877] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[158月2024 17:36:17.938] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[158月2024 17:36:17.940] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[158月2024 17:36:17.952] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[158月2024 17:36:17.954] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[158月2024 17:36:17.955] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[158月2024 17:36:18.076] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.0.162, for MC 1.21
+[158月2024 17:36:18.528] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[158月2024 17:36:18.712] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/MinecraftNeoForgeMod/Blink/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.0.162/neoforge-21.0.162.jar%23190!/assets/.mcassetsroot' uses unexpected schema
+[158月2024 17:36:18.712] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/MinecraftNeoForgeMod/Blink/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.0.162/neoforge-21.0.162.jar%23190!/data/.mcassetsroot' uses unexpected schema
+[158月2024 17:36:20.123] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1308 recipes
+[158月2024 17:36:20.373] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[158月2024 17:36:20.930] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[158月2024 17:36:20.930] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[158月2024 17:36:20.930] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[158月2024 17:36:20.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[158月2024 17:36:21.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[158月2024 17:36:21.161] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[158月2024 17:36:21.269] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[158月2024 17:36:21.269] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[158月2024 17:36:21.269] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[158月2024 17:36:21.270] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[158月2024 17:36:21.458] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[158月2024 17:36:23.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[158月2024 17:36:23.583] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[158月2024 17:36:23.584] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[158月2024 17:36:23.895] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 863 ms
+[158月2024 17:36:23.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.482s)! For help, type "help"
+[158月2024 17:36:23.922] [Server thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[158月2024 17:36:23.927] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[158月2024 17:36:23.928] [Server thread/WARN] [net.neoforged.neoforge.common.TagConventionLogWarning/]: 
+   Dev warning - Legacy Tags detected. Please migrate your 'forge' namespace tags to the 'c' namespace! See net.neoforged.neoforge.common.Tags.java for all tags.
+   NOTE: Many tags have been moved around or renamed. Some new ones were added so please review the new tags.
+    And make sure you follow tag conventions for new tags! The convention is `c` with nouns generally being plural and adjectives being singular.
+   You can disable this message in NeoForge's common config by setting `logLegacyTagWarnings` to "SILENCED" or see individual tags with "DEV_VERBOSE".
+
+[158月2024 17:38:02.038] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@21eefc29[id=fe016666-41a6-3d51-a11c-de82917818db,name=KSmc_brigade,properties={}] lost connection: Disconnected
+[158月2024 17:38:02.038] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[158月2024 17:39:45.327] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@1442ac2d[id=fe016666-41a6-3d51-a11c-de82917818db,name=KSmc_brigade,properties={}] lost connection: Incompatible client! Please use NeoForge 21.0.162
+[158月2024 17:39:45.330] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[158月2024 17:40:52.452] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KSmc_brigade[/[fe80::90fd:68b5:7dff:3b84]:52697] logged in with entity id 11 at (196.9385440813186, 66.0, 379.86556696445456)
+[158月2024 17:40:52.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KSmc_brigade joined the game
+[158月2024 17:41:24.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KSmc_brigade moved too quickly! 0.7807026046406236,1.713744068098066,-9.862841096599652
+[158月2024 17:41:24.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KSmc_brigade moved too quickly! -0.38087011191527154,2.5069013220152954,-13.5511113958529
+[158月2024 17:41:46.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KSmc_brigade: Set own game mode to Survival Mode]
+[158月2024 17:41:56.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [KSmc_brigade: Set own game mode to Creative Mode]
+[158月2024 17:42:14.185] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KSmc_brigade lost connection: Disconnected
+[158月2024 17:42:14.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KSmc_brigade left the game

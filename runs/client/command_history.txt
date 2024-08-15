@@ -1,0 +1,14 @@
+/tp ~10 ~ ~
+/tp ~-10 ~ ~
+/tp ~10 ~ ~
+/tp ~-10 ~ ~
+/tp ~20 ~ ~
+/tp ~15 ~ ~
+/tp ~12 ~ ~
+/tp ~11 ~ ~
+/tp ~10 ~ ~
+/give @s minecraft:golden_apple 64
+/neoforge mods
+/effect give @s minecraft:saturation infinite
+/time set midnight
+/give @s minecraft:enchanted_golden_apple 64

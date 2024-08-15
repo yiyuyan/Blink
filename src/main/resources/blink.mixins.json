@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.blink.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "blink.refmap.json",
+  "mixins": [
+    "NetworkRegistryMixin"
+  ],
+  "client": [
+    "ConnectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
